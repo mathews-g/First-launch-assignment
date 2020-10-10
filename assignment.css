@@ -1,0 +1,316 @@
+html{
+    background-color: #522828;
+}
+body{
+    margin: 0;
+    padding: 0;
+    }
+    /* Background styling for section 1 */
+.section1{
+    overflow: hidden;
+    position: absolute;
+    height: 400px;
+    top: 0px;
+    width: 100%;
+    text-align: justify;
+    background: url(images/head.jpg) no-repeat center ;
+    background-color: #2d2a2a;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Background blending code */ 
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+    
+
+}
+h1{ /*Styling of h1 in section1*/
+    color: whitesmoke;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    white-space: pre;
+    position: relative;
+    top: 120px;
+    left: 410px;
+}
+/*styling of paragraph in section one*/
+p{
+    position: relative;
+    top: 120px;
+    left: 440px;
+    color:#e3e0e0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    
+}
+/*styling 'LOG IN' link*/
+.log{
+    border: 3px solid #3333ff;
+    border-width: 16px;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    background: #3333ff;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    
+}
+/*Applying hover effect on 'LOG IN' & 'SIGN UP FOR FREE'*/
+.log:hover,button:hover{
+    color: cornflowerblue;
+}
+/*styling 'SIGN UP FOR FREE' Button*/
+button{
+     border: 3px solid #3333ff;
+    border-width: 16px;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    background: #3333ff;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*Styling of section2*/
+.section2{
+    overflow: hidden;
+    background: url(images/bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 401px;
+    height: 700px; 
+    width: 100%;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+} 
+.box1 {
+    background-color: whitesmoke;
+    width: 370px;
+    height: 350px;
+    position: absolute;
+    top: 651px;
+    left: 150px;
+    box-shadow: 0 0 10px #000;
+    list-style: none;
+}
+.box1 li{
+    margin-top: 40px; 
+    font-size: 17px;
+}
+.selfpaced{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box2{
+    background-color: whitesmoke;
+     width: 370px;
+    height: 350px;
+    position: absolute;
+    top: 651px;
+    left: 600px;
+    box-shadow: 0 0 10px #000;
+    list-style: none;
+}
+.box2 li{
+    margin-top: 40px; 
+    font-size: 17px;
+}
+.access{
+    white-space: nowrap;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box3{
+    background-color: whitesmoke;
+     width: 370px;
+    height: 350px;
+    position: absolute;
+    top: 651px;
+    left: 1050px;
+    box-shadow: 0 0 10px #000;
+    list-style: none;
+}
+.unique{
+   color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box3 li{
+    margin-top: 40px; 
+    font-size: 17px;
+}
+
+h3{
+    /*Styling of h3*/
+    color: #212121;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left: 150px;
+    text-transform: lowercase;
+}
+h2{
+    /*Styling of h2*/
+    color: #212121;
+    font-size: 40px;
+    position: inherit;
+    top: 55px;
+    left: 150px;
+}
+.p1{
+    color: #212121;
+    width: 400px;
+    position: inherit;
+    top: 55px;
+    left: 1050px;
+}
+
+.section3{
+    overflow: hidden;
+      position: absolute;
+      top: 1101px;
+      background: url(images/community.jpeg) no-repeat center;
+      background-color: #2d2a2a;
+      background-size: cover;
+      width: 100%;
+      height: 400px;
+      text-align: justify;
+      font-family: 'Quicksand', sans-serif;
+    /* Background blending comes here */ 
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    background-blend-mode: overlay;
+}
+.section3 h1{
+    color: whitesmoke;
+    font-size: 55px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    text-transform: uppercase;
+}
+.section3 h3{
+    color: #4dbbe8;
+    font-size: 30px;
+    position: absolute;
+    top: 60px;
+    left: 120px;
+    text-transform: uppercase;
+}
+.section3 p{
+    color: whitesmoke;
+    width: 450px;
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    left: 1000px;
+    text-transform: lowercase;
+}
+.section4{
+    overflow: hidden;
+      position: absolute;
+      top: 1501px;
+      background-color: #e1e1e1;
+      width: 100%;
+      height: 1200px;
+      text-align: justify;
+}
+/*Styling of 3 images in the section4*/
+.img1{
+    background: url(images/img1.jpg) no-repeat center;
+    background-size: 100%;
+    box-shadow: 0 0 20px #000;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 65px;
+    transition: 1s;
+}
+.img2{
+    background: url(images/img2.jpg) no-repeat center;
+    background-size: 100%;
+    box-shadow: 0 0 20px #000;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 530px;
+    transition: 1s;
+}
+.img3{
+    background: url(images/img3.jpg) no-repeat center;
+    background-size: 100%;
+    box-shadow: 0 0 20px #000;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 995px;
+    transition: 1s;
+}
+/*ZOOM hover transition for 3 images*/
+.img1:hover,.img2:hover,.img3:hover{
+    background-size: 105%;
+}
+.aboutus{
+    background-color: whitesmoke;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+.aboutus p{
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 150px;
+    width: 350px;
+}
+.course{
+   list-style: none;
+   position: absolute;
+   left: 510px;
+    top: 95px;
+    width: 350px;
+}
+ul {
+    box-sizing: border-box;
+}
+ul li{
+    padding: 10px;
+}
+.course span{
+    font-size: 19px;
+    font-weight: bold; 
+}
+.institute{
+     list-style: none;
+   position: absolute;
+   left: 860px;
+    top: 95px;
+    width: 350px;
+}
+.institute span{
+    font-size: 19px;
+    font-weight: bold; 
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
