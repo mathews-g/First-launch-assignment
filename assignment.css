@@ -18,9 +18,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     /* Background blending code */ 
+    background-blend-mode: overlay;
     -webkit-background-blend-mode: overlay;
     -moz-background-blend-mode: overlay;
-    background-blend-mode: overlay;
+    
     
 
 }
@@ -48,7 +49,6 @@ p{
     border: 3px solid #3333ff;
     border-width: 16px;
     border-radius: 1em;
-    color: white;
     text-decoration: none;
     background: #3333ff;
     position: absolute;
@@ -296,7 +296,7 @@ ul li{
     padding: 10px;
 }
 .course span{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold; 
 }
 .institute{
@@ -307,10 +307,25 @@ ul li{
     width: 350px;
 }
 .institute span{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: bold; 
 }
 a{
     text-decoration: none;
     cursor: pointer;
+}
+/*Disabling achor tag color change after clicked*/
+a:visited{
+    color: black;
+}
+.follow{
+    list-style: none;
+   position: absolute;
+   left: 1140px;
+    top: 95px;
+    width: 350px;
+}
+.follow span{
+    font-size: 20px;
+    font-weight: bold; 
 }
